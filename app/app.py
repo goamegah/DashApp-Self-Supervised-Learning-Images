@@ -1,7 +1,6 @@
 import dash
 from dash import dcc
 from dash import html
-import plotly.graph_objs as go
 from dash.dependencies import Input, Output, State
 import io
 import requests
@@ -28,7 +27,9 @@ server = app.server
 app.config.suppress_callback_exceptions = True
 
 model_list = [
-    "LeNet5"
+    "LeNet5",
+    "ResNet18",
+    "SimCLR"
 ]
 
 
