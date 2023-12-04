@@ -1,0 +1,4 @@
+dash
+matplotlib
+numpy
+plotly-express
